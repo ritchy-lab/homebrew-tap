@@ -12,7 +12,7 @@ cask "usb-floss-magic" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
   depends_on arch: :arm64
 
   app "USB-Floss Magic.app"
